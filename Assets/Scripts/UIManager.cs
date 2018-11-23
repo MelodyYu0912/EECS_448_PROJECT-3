@@ -12,6 +12,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour {
     public Slider GPABar;
     public Text GPAText;
+    public Text userName;
     //public GPAManager GPA;
     public float gpatext;
     // Use this for initialization
@@ -22,6 +23,7 @@ public class UIManager : MonoBehaviour {
     **/
     void Start () {
         GPABar.value = PlayerManager.GPA;
+        PlayerManager.userName = GetUserName.userName;
     }
 	/**
     * @pre Valid PlayerManager.GPA.
@@ -32,9 +34,10 @@ public class UIManager : MonoBehaviour {
         GPABar.maxValue = 1;
         GPABar.value = PlayerManager.GPA;
         float GPAString = PlayerManager.GPA * 4;
+        string user_Name = PlayerManager.userName;
 
 
         GPAText.text = GPAString.ToString("0.00")+"/4.00";
-
+        userName.text = user_Name;
 	}
 }

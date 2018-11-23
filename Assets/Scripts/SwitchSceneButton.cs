@@ -38,8 +38,13 @@ public class SwitchSceneButton : MonoBehaviour
     void OnMouseDown()
     {
         PlayerManager.GPA = Question.GPA;
+        PlayerManager.userName = GetUserName.userName;
+        Debug.Log(PlayerManager.userName);
         //go.SetActive(true);
         Application.LoadLevel(LevelToLoad);
+        
+
+        
         
     }
 }
