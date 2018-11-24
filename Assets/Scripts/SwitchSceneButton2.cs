@@ -15,6 +15,7 @@ public class SwitchSceneButton2 : MonoBehaviour
 {
     //[HideInInspector]
     public int LevelToLoad;
+    public GameObject ErrorPanel;
     /**
     * @pre  None
     * @post set up button 
@@ -42,13 +43,17 @@ public class SwitchSceneButton2 : MonoBehaviour
 
         if (PlayerManager.userName == "")
         {
-            UnityEditor.EditorUtility.DisplayDialog("HMMMMMM", "A name for your character is needed to enter the game. :)", "Okay");
+            ErrorPanel.SetActive(true);
+            //UnityEditor.EditorUtility.DisplayDialog("HMMMMMM", "A name for your character is needed to enter the game. :)", "Okay");
         }
         else
         {
+           
             Application.LoadLevel(LevelToLoad);
         }
     }
+
+
 
      
 
