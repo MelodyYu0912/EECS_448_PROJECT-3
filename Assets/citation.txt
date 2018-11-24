@@ -2,3 +2,5 @@ bg1: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542888
 bg2: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=666701813,2496778065&fm=26&gp=0.jpg
 bg3: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542890514573&di=a587870a1e784e22f86903af49513bbf&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F57%2F83%2F66%2F5a33ca2c74a57.png%2521%2Ffwfh%2F804x473%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue
 certificate: http://imgus.me/img/
+TikTok£º https://opengameart.org/content/ticking-clock Author£ºbart
+HuanQin£º Author£ºHai Lin

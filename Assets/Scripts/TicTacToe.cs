@@ -94,7 +94,7 @@ public class TicTacToe : MonoBehaviour
     {
         GUIStyle fontStyle = new GUIStyle();
         fontStyle.normal.background = null;
-        fontStyle.normal.textColor = new Color(1, 1, 0);
+        fontStyle.normal.textColor = new Color(255, 255, 255);
         fontStyle.fontSize = 40;
 
         for (int i = 0; i < 3; ++i)
